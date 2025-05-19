@@ -1,5 +1,5 @@
-En France, presque 3000 hôpitaux et cliniques prenent en charge les soins des patients.
-Chaque établissement est organisé selon des entités plus ou moins hierarchiques.
+En France, presque 3000 hôpitaux et cliniques prennent en charge les soins des patients.
+Chaque établissement est organisé selon des entités plus ou moins hiérarchiques.
 Ces entités, dont l'on retrouve une brève définition dans le code de la santé publique ou les guides de gestion des établissements, sont utilisées au quotidien dans les composants logiciels qui constituent le système d'information d'un établissement, quelle que soit sa taille.
 
 Pour permettre d'échanger ces organisations, les ressources FHIR sont adaptées au contexte national pour permettre une expression commune, nécessaire et suffisante.
