@@ -8,4 +8,4 @@ Groupe Structure
 - :books: [groupe google](https://groups.google.com/u/1/g/is-gt-structure)
 
 
-:construction: En cours de construction...
+:construction: IG consultable sur [les pages github](https://interop-sante.github.io/hl7.fhir.fr.structure/)
