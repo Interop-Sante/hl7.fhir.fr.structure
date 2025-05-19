@@ -1,4 +1,4 @@
-Les entités consitituant la structure hospitalière sont catégorisées en 2 familles :
+Les entités constituant la structure hospitalière sont catégorisées en 2 familles :
 
 - les entités abstraites
 - les lieux physiques
@@ -76,11 +76,11 @@ Les lieux physiques sont :
 + salle de consultation
 
 Ces lieux sont des entités concrètes, représentant un espace délimité et identifiable par une adresse et/ou des coordonnées GPS. Certains lieux peuvent également définir des horaires pendant lesquels des activités de soins sont réalisées.
-Ces différentes lieux sont reliés entre eux par des relations. Ils sont également liés aux structures organisationnelles abstraites.
+Ces différents lieux sont reliés entre eux par des relations. Ils sont également liés aux structures organisationnelles abstraites.
 
 ### Modèle conceptuel
 
- Chaque entité est une strucuture interne, qui peut parfois avoir des caractéristiques propres supplémentaires. Le modèle objet de ces entités est alors :
+ Chaque entité est une structure interne, qui peut parfois avoir des caractéristiques propres supplémentaires. Le modèle objet de ces entités est alors :
 
 
 ### Profile FHIR associé
