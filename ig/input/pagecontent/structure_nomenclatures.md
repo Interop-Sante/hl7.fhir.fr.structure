@@ -6,12 +6,12 @@
 > utilisé dans les remontées B2 FIDES
 
 **Champ d'activité**
-> Permet de classer de façon macroscopique une UF : MCO, HAD, PSY, SMR. Il n'y a pas de nomenclature nationale officielle. Cependant, ces champs d'activité sont utilisé de façon courante, comme dans le guide de comptabilité analytique hospitalière par exemple, le guide PMSI ou des rapports de l'IGAS. 
+> Permet de classer de façon macroscopique une UF : MCO, HAD, PSY, SMR. Il n'y a pas de nomenclature nationale officielle. Cependant, ces champs d'activité sont utilisés de façon courante, comme dans le guide de comptabilité analytique hospitalière par exemple, le guide PMSI ou des rapports de l'IGAS. 
 
 **Discipline de prestation**
 <span class="tag tag-cat1">DREESS</span>
 > Nomenclature définie par la DREESS dans le cadre de la SAE.
-> Cette nomenclature est également utilisé dans les remontées B2 FIDES
+> Cette nomenclature est également utilisée dans les remontées B2 FIDES
 > La discipline de prestation correspond à l'ancienne nomenclature des Disciplines Medico-Tarifaires (DMT)
 
 **Code Tarif**
