@@ -209,12 +209,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#relation-entre-les-entités-de-la-structure" id="markdown-toc-relation-entre-les-entités-de-la-structure">Relation entre les entités de la structure</a></li>
+  <li><a href="#relations-entre-les-entités-de-la-structure" id="markdown-toc-relations-entre-les-entités-de-la-structure">Relations entre les entités de la structure</a></li>
   <li><a href="#relation-de-responsabilité" id="markdown-toc-relation-de-responsabilité">Relation de responsabilité</a></li>
 </ul>
 
 </div>
-<h3 id="relation-entre-les-entités-de-la-structure">Relation entre les entités de la structure</h3>
+<h3 id="relations-entre-les-entités-de-la-structure">Relations entre les entités de la structure</h3>
 
 <p>Chaque entité, composant la structure d’un établissement de santé doit pouvoir avoir :</p>
 
@@ -226,7 +226,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Une UF peut faire partie d’un regroupement d’un secteur et faire également partie d’un même pôle, ou d’un même Centre d’Activité. Une UF n’a donc pas forcément qu’un seul parent.
 La modélisation avec la ressource <code class="language-plaintext highlighter-rouge">Organization</code> doit permettre des liens flexibles et multiples vers d’autres entités. Cela permet alors de pouvoir exprimer chaque structure d’établissement.</p>
 
-<p>Dans la version internationale de la ressource <a href="https://hl7.org/fhir/R4/organization.html">Organization</a>, seule une possibilité de lien entre une entitée et une entité parente est possible. Cela ne permet pas d’exprimer la souplesse d’organisation qui est laissée à chaque établissement, dans le cadre français.</p>
+<p>Dans la version internationale de la ressource <a href="https://hl7.org/fhir/R4/organization.html">Organization</a>, seule une possibilité de lien entre une entité et une entité parente est possible. Cela ne permet pas d’exprimer la souplesse d’organisation qui est laissée à chaque établissement, dans le cadre français.</p>
 
 <p>En rajoutant simplement une extension à la ressource Organization, à savoir <code class="language-plaintext highlighter-rouge">member</code>, toutes les possibilités sont exprimables.</p>
 
@@ -239,13 +239,14 @@ La modélisation avec la ressource <code class="language-plaintext highlighter-r
 <ul>
   <li>un directeur général responsable d’une entité juridique</li>
   <li>un responsable de pôle</li>
-  <li>un respsonable d’UF</li>
+  <li>un responsable d’UF</li>
   <li>etc.</li>
 </ul>
 
-<p>L’utilisation de deux ressources est nécessaire. Le professionnel de santé sera représentée par une instance de la ressource <code class="language-plaintext highlighter-rouge">Practitionner</code> et son rôle, de responsabilité, sera portée par la ressource <code class="language-plaintext highlighter-rouge">PractitionerRole</code> qui fera le lien entre le professionnel et l’entité.</p>
+<p>L’utilisation de deux ressources est nécessaire. Le professionnel de santé sera représenté par une instance de la ressource <code class="language-plaintext highlighter-rouge">Practitionner</code> et son rôle, de responsabilité, sera portée par la ressource <code class="language-plaintext highlighter-rouge">PractitionerRole</code> qui fera le lien entre le professionnel et l’entité.</p>
 
 <p class="schema"><img src="relations_personnes.svg" alt="Relations Organization-Personnes" title="Relations personnes" style="height:60%; width:60%" /></p>
+
 
 
 
@@ -287,7 +288,7 @@ La modélisation avec la ressource <code class="language-plaintext highlighter-r
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package hl7.fhir.fr.core#2.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, May 18, 2025 23:49+0200">2025-05-18</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package hl7.fhir.fr.core#2.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, May 24, 2025 18:31+0200">2025-05-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

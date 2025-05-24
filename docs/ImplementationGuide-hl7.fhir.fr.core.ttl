@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "FrCore"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation Fr Core"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-05-18T23:49:30+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-24T18:31:28+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -1222,8 +1222,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category-extension> ;
-         fhir:reference [ fhir:v "StructureDefinition/fr-core-organization-sae-category-extension" ]
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category> ;
+         fhir:reference [ fhir:v "StructureDefinition/fr-core-organization-sae-category" ]
        ] ;
        fhir:name [ fhir:v "FR Core Organization Extension - Catetgorie SAE" ] ;
        fhir:description [ fhir:v "Categorie d'établissement de santé, suivant les valeurs de la SAE (Structure d'Activité d'Etablissement)" ] ;
@@ -1443,6 +1443,24 @@
        ] ;
        fhir:name [ fhir:v "FR Core Organization Profile" ] ;
        fhir:description [ fhir:v "Profil de la ressource Organization pour la France. Il s'agit du profil de base pour les organisations en France." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-raison-sociale> ;
+         fhir:reference [ fhir:v "StructureDefinition/fr-core-organization-raison-sociale" ]
+       ] ;
+       fhir:name [ fhir:v "FR Core Organization Raison Sociale Extension" ] ;
+       fhir:description [ fhir:v "Raison Sociale l'organisation" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1806,6 +1824,24 @@
        fhir:example [
          a fhir:boolean ;
          fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-ej-350005179> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-ej-350005179" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-ej-350005179" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement>
        ]
      ] [
        fhir:extension ( [

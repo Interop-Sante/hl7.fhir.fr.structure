@@ -26,7 +26,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-fr-core-organization-sae-category-extension.html" : "FR Core Organization Extension - Catetgorie SAE"
+      "StructureDefinition-fr-core-organization-sae-category.html" : "FR Core Organization Extension - Catetgorie SAE"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-discipline-prestation",

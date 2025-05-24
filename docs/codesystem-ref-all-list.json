@@ -240,10 +240,10 @@
       "description" : "HL7 v2 - Table 3307",
       "uses" : {
       },
-      "ValueSet-fr-core-vs-organization-uf-type.html" : "FR Core ValueSet Organization UF type",
-      "ValueSet-fr-core-vs-organization-etablissement-type.html" : "FR Core ValueSet Organization Etablisement type",
+      "ValueSet-fr-core-vs-organization-type.html" : "FR Core ValueSet Organization type",
       "ValueSet-fr-core-vs-organization-uac-type.html" : "FR Core ValueSet Organization UAC type",
-      "ValueSet-fr-core-vs-organization-type.html" : "FR Core ValueSet Organization type"
+      "ValueSet-fr-core-vs-organization-uf-type.html" : "FR Core ValueSet Organization UF type",
+      "ValueSet-fr-core-vs-organization-etablissement-type.html" : "FR Core ValueSet Organization Etablisement type"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",

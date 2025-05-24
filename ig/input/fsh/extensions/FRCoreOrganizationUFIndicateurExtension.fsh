@@ -1,5 +1,3 @@
-// TODO - extension utilisée nulle part, à étudier 
-
 Extension: FRCoreOrganizationUFIndicateurExtension
 Id: fr-core-organization-uf-indicateur
 Title: "FR Core Organization Extension - Indicateur d'une unité fonctionnelle"

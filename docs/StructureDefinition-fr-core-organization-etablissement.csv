@@ -45,8 +45,11 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","FR Core Organization Extension - Membre d'organisation","Extension permettant de définir des membres d'une organisation.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Organization.extension:sae","Organization.extension","sae","","",0,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category-extension]]} {[]}
+"Organization.extension:sae","Organization.extension","sae","","",0,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category]]} {[]}
 ","FR Core Organization Extension - Catetgorie SAE","Categorie d'établissement de santé, suivant les valeurs de la SAE (Structure d'Activité d'Etablissement)","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Organization.extension:raisonSociale","Organization.extension","raisonSociale","","",0,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-raison-sociale]]} {[]}
+","FR Core Organization Raison Sociale Extension","Raison Sociale l'organisation","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Organization.modifierExtension","Organization.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}

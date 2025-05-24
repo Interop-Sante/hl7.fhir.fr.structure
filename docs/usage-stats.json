@@ -189,7 +189,14 @@
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category-extension",
+      "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-raison-sociale",
+      "title": "FR Core Organization Raison Sociale Extension",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category",
       "title": "FR Core Organization Extension - Catetgorie SAE",
       "types": [
         "base64Binary",
@@ -510,7 +517,10 @@
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-place-hebergement-theorique": [
       "Organization"
     ],
-    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category-extension": [
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-raison-sociale": [
+      "Organization"
+    ],
+    "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category": [
       "Organization"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-short-name": [

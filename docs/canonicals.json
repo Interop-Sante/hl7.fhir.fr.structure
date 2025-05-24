@@ -196,9 +196,16 @@
     "name" : "FRCoreOrganizationPlaceHebergementTheoriqueExtension"
   },
   {
-    "id" : "fr-core-organization-sae-category-extension",
+    "id" : "fr-core-organization-raison-sociale",
     "type" : "StructureDefinition",
-    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category-extension",
+    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-raison-sociale",
+    "version" : "2.1.0",
+    "name" : "FRCoreOrganizationRaisonSocialeExtension"
+  },
+  {
+    "id" : "fr-core-organization-sae-category",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category",
     "version" : "2.1.0",
     "name" : "FRCoreOrganizationSAECategoryExtension"
   },

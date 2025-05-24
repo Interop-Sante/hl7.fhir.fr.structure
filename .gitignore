@@ -4,3 +4,5 @@ ig/node_modules
 ig/temp
 ig/template
 ig/hl7.ig.fr.template
+ig/output-cache
+ig/output

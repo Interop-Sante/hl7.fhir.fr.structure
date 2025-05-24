@@ -10,7 +10,7 @@
   "name" : "FrCore",
   "title" : "Guide d'implémentation Fr Core",
   "status" : "active",
-  "date" : "2025-05-18T23:49:30+02:00",
+  "date" : "2025-05-24T18:31:28+02:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -874,7 +874,7 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/fr-core-organization-sae-category-extension"
+        "reference" : "StructureDefinition/fr-core-organization-sae-category"
       },
       "name" : "FR Core Organization Extension - Catetgorie SAE",
       "description" : "Categorie d'établissement de santé, suivant les valeurs de la SAE (Structure d'Activité d'Etablissement)",
@@ -1022,6 +1022,18 @@
       },
       "name" : "FR Core Organization Profile",
       "description" : "Profil de la ressource Organization pour la France. Il s'agit du profil de base pour les organisations en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-core-organization-raison-sociale"
+      },
+      "name" : "FR Core Organization Raison Sociale Extension",
+      "description" : "Raison Sociale l'organisation",
       "exampleBoolean" : false
     },
     {
@@ -1263,6 +1275,17 @@
       "name" : "FR Core ValueSet Organization UF type",
       "description" : "Type de structure représentant des unités fonctionnelles.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-ej-350005179"
+      },
+      "name" : "hopitaltest-ej-350005179",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement"
     },
     {
       "extension" : [{

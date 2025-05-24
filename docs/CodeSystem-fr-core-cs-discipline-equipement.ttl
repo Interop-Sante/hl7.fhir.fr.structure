@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "FR Core CodeSystem Discipline d'Equipement - nomenclature SAE"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-05-18T23:49:30+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-24T18:31:28+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
