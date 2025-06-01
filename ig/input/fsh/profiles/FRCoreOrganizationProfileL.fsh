@@ -1,9 +1,10 @@
-Profile: FRCoreOrganizationProfile
+Profile: FRCoreOrganizationProfileL
 Parent: Organization
-Id: fr-core-organization
+Id: fr-core-organization-l
 Title: "FR Core Organization Profile"
-Description: """Profil de la ressource Organization pour la France. Il s'agit du profil de base pour les organisations en France."""
-//* ^purpose = """"""
+Description: """Profil de la ressource Organization pour la France. 
+Version avec List (pour member)."""
+
 
 * ^version = "1.0.0"
 * ^status = #active
@@ -17,12 +18,11 @@ Description: """Profil de la ressource Organization pour la France. Il s'agit du
     http://hl7.org/fhir/StructureDefinition/organization-period named usePeriod 0..1    and
     http://hl7.org/fhir/StructureDefinition/note named openReason 0..1                  and
     http://hl7.org/fhir/StructureDefinition/note named closureReason 0..1               and
-    FRCoreOrganizationMemberExtension named members 0..1
+    FRCoreOrganizationMemberLExtension named member 0..*                               
     
 
 * type  from FRCoreValueSetOrganizationType (required)
 * telecom only FRCoreContactPointProfile
-//* partOf only Reference(FRCoreOrganizationProfile or FRCoreOrganizationUACProfile or FRCoreOrganizationEtablissementProfile or FRCoreOrganizationUFProfile)
 * partOf only Reference(FRCoreOrganizationProfile or FRCoreOrganizationEtablissementProfile)
 * partOf.type from FRCoreValueSetOrganizationType (extensible)
 

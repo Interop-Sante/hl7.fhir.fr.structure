@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="hopitaltest-dept-11003-endocrino-list-contained"/>
+  <meta>
+    <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : Organization hopitaltest-dept-11003-endocrino-list-contained</b></p><a name="hopitaltest-dept-11003-endocrino-list-contained"> </a><a name="hchopitaltest-dept-11003-endocrino-list-contained"> </a><a name="hopitaltest-dept-11003-endocrino-list-contained-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-fr-core-organization-l.html">FR Core Organization Profile</a></p></div><p><b>FR Core Organization Extension - Membre d'organisation</b>: <a href="#hchopitaltest-dept-11003-endocrino-list-contained/dept-11003-members">Liste pour 'Type de Liste non spécifiée' pour 'Sujet Non Soécifié'</a></p><p><b>identifier</b>: <code>http://hopitalTest.fr/namingsystem/organization</code>/11003 (use: official, )</p><p><b>type</b>: <span title="Codes:{https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307 DEPARTEMENT}">DEPARTEMENT</span></p><p><b>name</b>: Departement d'Endocrinologie</p><hr/><blockquote><p class="res-header-id"><b>Narratif généré : List #dept-11003-members</b></p><a name="hopitaltest-dept-11003-endocrino-list-contained/dept-11003-members"> </a><a name="hchopitaltest-dept-11003-endocrino-list-contained/dept-11003-members"> </a><a name="hopitaltest-dept-11003-endocrino-list-contained/dept-11003-members-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <code>http://example.org/fhir/StructureDefinition/fr-list-organization-members</code></p></div><h2>UF composant du département d'Endocrinologie</h2><table class="clstu"><tr><td>Mode : Working List </td><td>Statut : Current </td></tr><tr><td/></tr></table><table class="grid"><tr style="backgound-color: #eeeeee"><td><b>Items</b></td></tr><tr><td><a href="Organization-hopitaltest-uf-4701-endocrino-diab.html">Organization UF Endocrino Diabeto</a></td></tr><tr><td><a href="Organization-hopitaltest-uf-4705-nutrition.html">Organization UF Nutrition</a></td></tr></table></blockquote></div>
+  </text>
+  <contained>
+    <List>
+      <id value="dept-11003-members"/>
+      <meta>
+        <profile value="http://example.org/fhir/StructureDefinition/fr-list-organization-members"/>
+      </meta>
+      <status value="current"/>
+      <mode value="working"/>
+      <title value="UF composant du département d'Endocrinologie"/>
+      <entry>
+        <item>
+          <reference value="Organization/hopitaltest-uf-4701-endocrino-diab"/>
+        </item>
+      </entry>
+      <entry>
+        <item>
+          <reference value="Organization/hopitaltest-uf-4705-nutrition"/>
+        </item>
+      </entry>
+    </List>
+  </contained>
+  <extension url="http://example.org/fhir/StructureDefinition/organization-member-list">
+    <valueReference>
+      <reference value="#dept-11003-members"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <use value="official"/>
+    <system value="http://hopitalTest.fr/namingsystem/organization"/>
+    <value value="11003"/>
+  </identifier>
+  <type>
+    <coding>
+      <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307"/>
+      <code value="DEPARTEMENT"/>
+      <display value="Departement"/>
+    </coding>
+    <text value="DEPARTEMENT"/>
+  </type>
+  <name value="Departement d'Endocrinologie"/>
+</Organization>

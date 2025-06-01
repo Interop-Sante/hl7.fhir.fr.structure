@@ -1,0 +1,24 @@
+{
+  "resourceType" : "List",
+  "id" : "hopitaltest-dept-11003-endocrino-uf-list",
+  "meta" : {
+    "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-list"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : List hopitaltest-dept-11003-endocrino-uf-list</b></p><a name=\"hopitaltest-dept-11003-endocrino-uf-list\"> </a><a name=\"hchopitaltest-dept-11003-endocrino-uf-list\"> </a><a name=\"hopitaltest-dept-11003-endocrino-uf-list-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-core-organization-list.html\">FR Core Organization Profile</a></p></div><h2>UF composant du département d'Endocrinologie</h2><table class=\"clstu\"><tr><td>Mode : Working List </td><td>Statut : Current </td></tr><tr><td/></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr><tr><td><a href=\"Organization-hopitaltest-uf-4701-endocrino-diab.html\">Organization UF Endocrino Diabeto</a></td></tr><tr><td><a href=\"Organization-hopitaltest-uf-4705-nutrition.html\">Organization UF Nutrition</a></td></tr></table></div>"
+  },
+  "status" : "current",
+  "mode" : "working",
+  "title" : "UF composant du département d'Endocrinologie",
+  "entry" : [{
+    "item" : {
+      "reference" : "Organization/hopitaltest-uf-4701-endocrino-diab"
+    }
+  },
+  {
+    "item" : {
+      "reference" : "Organization/hopitaltest-uf-4705-nutrition"
+    }
+  }]
+}
