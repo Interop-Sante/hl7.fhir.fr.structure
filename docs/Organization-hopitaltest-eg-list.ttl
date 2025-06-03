@@ -1,0 +1,120 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/fhir/core/Organization/hopitaltest-eg-list> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hopitaltest-eg-list"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement-wlist"^^xsd:anyURI ;
+       fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement-wlist>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Organization hopitaltest-eg-list</b></p><a name=\"hopitaltest-eg-list\"> </a><a name=\"hchopitaltest-eg-list\"> </a><a name=\"hopitaltest-eg-list-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-core-organization-etablissement-wlist.html\">FR Core Organization Etablissement Profile (List)</a></p></div><p><b>FR Core Organization Extension - Catetgorie SAE</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement 101}\">Centre hospitalier régional (CHR)</span></p><p><b>FR Core Organization Raison Sociale Extension</b>: CHRU CENTRE VILLE</p><p><b>identifier</b>: FINESS d'entité géographique/350009999 (use: official, ), Identification de l'organisation au SIREN/26350007609999 (use: official, )</p><p><b>type</b>: <span title=\"Codes:{https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307 LEGAL-ENTITY}\">Etablissement Géographique</span></p><p><b>name</b>: CHRU CENTRE VILLE</p><hr/><blockquote><p class=\"res-header-id\"><b>Narratif généré : List #eg-uf-members</b></p><a name=\"hopitaltest-eg-list/eg-uf-members\"> </a><a name=\"hchopitaltest-eg-list/eg-uf-members\"> </a><a name=\"hopitaltest-eg-list/eg-uf-members-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <code>http://example.org/fhir/StructureDefinition/fr-list-organization-members</code></p></div><h2>UF composant de l'établissement géographique</h2><table class=\"clstu\"><tr><td>Mode : Working List </td><td>Statut : Current </td></tr><tr><td/></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr><tr><td><a href=\"Organization-hopitaltest-uf-4701-endocrino-diab.html\">Organization UF Endocrino Diabeto</a></td></tr><tr><td><a href=\"Organization-hopitaltest-uf-4705-nutrition.html\">Organization UF Nutrition</a></td></tr></table></blockquote><hr/><blockquote><p class=\"res-header-id\"><b>Narratif généré : List #eg-svc-members</b></p><a name=\"hopitaltest-eg-list/eg-svc-members\"> </a><a name=\"hchopitaltest-eg-list/eg-svc-members\"> </a><a name=\"hopitaltest-eg-list/eg-svc-members-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <code>http://example.org/fhir/StructureDefinition/fr-list-organization-members</code></p></div><h2>Services composant de l'établissement géographique</h2><table class=\"clstu\"><tr><td>Mode : Working List </td><td>Statut : Current </td></tr><tr><td/></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr><tr><td><a href=\"Organization-hopitaltest-service-11006-endocrino-diabo.html\">Organization Service Endocrino Diabeto</a></td></tr><tr><td><a href=\"Organization-hopitaltest-service-11007-dietetique.html\">Organization Service Dietetique</a></td></tr></table></blockquote></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:contained ( [
+     a fhir:List ;
+     fhir:id [ fhir:v "eg-uf-members" ] ;
+     fhir:meta [
+       fhir:profile ( [
+         fhir:v "http://example.org/fhir/StructureDefinition/fr-list-organization-members"^^xsd:anyURI ;
+         fhir:link <http://example.org/fhir/StructureDefinition/fr-list-organization-members>
+       ] )
+     ] ;
+     fhir:status [ fhir:v "current" ] ;
+     fhir:mode [ fhir:v "working" ] ;
+     fhir:title [ fhir:v "UF composant de l'établissement géographique" ] ;
+     fhir:entry ( [
+       fhir:item [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-uf-4701-endocrino-diab> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-uf-4701-endocrino-diab" ]
+       ]
+     ] [
+       fhir:item [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-uf-4705-nutrition> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-uf-4705-nutrition" ]
+       ]
+     ] )
+  ] [
+     a fhir:List ;
+     fhir:id [ fhir:v "eg-svc-members" ] ;
+     fhir:meta [
+       fhir:profile ( [
+         fhir:v "http://example.org/fhir/StructureDefinition/fr-list-organization-members"^^xsd:anyURI ;
+         fhir:link <http://example.org/fhir/StructureDefinition/fr-list-organization-members>
+       ] )
+     ] ;
+     fhir:status [ fhir:v "current" ] ;
+     fhir:mode [ fhir:v "working" ] ;
+     fhir:title [ fhir:v "Services composant de l'établissement géographique" ] ;
+     fhir:entry ( [
+       fhir:item [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-service-11006-endocrino-diabo> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-service-11006-endocrino-diabo" ]
+       ]
+     ] [
+       fhir:item [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-service-11007-dietetique> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-service-11007-dietetique" ]
+       ]
+     ] )
+  ] ) ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "101" ] ;
+         fhir:display [ fhir:v "Centre hospitalier régional (CHR)" ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-raison-sociale"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "CHRU CENTRE VILLE"
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "FINEG" ] ;
+         fhir:display [ fhir:v "FINESS d'entité géographique" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "https://finess.esante.gouv.fr"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "350009999" ]
+  ] [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "SIREN" ] ;
+         fhir:display [ fhir:v "Identification de l'organisation au SIREN" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "https://sirene.fr"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "26350007609999" ]
+  ] ) ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "LEGAL-ENTITY" ] ;
+       fhir:display [ fhir:v "Entité légale" ]
+     ] ) ;
+     fhir:text [ fhir:v "Etablissement Géographique" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "CHRU CENTRE VILLE"] . # 
+
+# -------------------------------------------------------------------------------------
+

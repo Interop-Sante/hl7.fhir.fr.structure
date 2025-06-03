@@ -1,0 +1,98 @@
+{
+  "resourceType" : "Organization",
+  "id" : "hopitaltest-eg-list",
+  "meta" : {
+    "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement-wlist"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Organization hopitaltest-eg-list</b></p><a name=\"hopitaltest-eg-list\"> </a><a name=\"hchopitaltest-eg-list\"> </a><a name=\"hopitaltest-eg-list-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-core-organization-etablissement-wlist.html\">FR Core Organization Etablissement Profile (List)</a></p></div><p><b>FR Core Organization Extension - Catetgorie SAE</b>: <span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement 101}\">Centre hospitalier régional (CHR)</span></p><p><b>FR Core Organization Raison Sociale Extension</b>: CHRU CENTRE VILLE</p><p><b>identifier</b>: FINESS d'entité géographique/350009999\u00a0(use:\u00a0official,\u00a0), Identification de l'organisation au SIREN/26350007609999\u00a0(use:\u00a0official,\u00a0)</p><p><b>type</b>: <span title=\"Codes:{https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307 LEGAL-ENTITY}\">Etablissement Géographique</span></p><p><b>name</b>: CHRU CENTRE VILLE</p><hr/><blockquote><p class=\"res-header-id\"><b>Narratif généré : List #eg-uf-members</b></p><a name=\"hopitaltest-eg-list/eg-uf-members\"> </a><a name=\"hchopitaltest-eg-list/eg-uf-members\"> </a><a name=\"hopitaltest-eg-list/eg-uf-members-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <code>http://example.org/fhir/StructureDefinition/fr-list-organization-members</code></p></div><h2>UF composant de l'établissement géographique</h2><table class=\"clstu\"><tr><td>Mode : Working List </td><td>Statut : Current </td></tr><tr><td/></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr><tr><td><a href=\"Organization-hopitaltest-uf-4701-endocrino-diab.html\">Organization UF Endocrino Diabeto</a></td></tr><tr><td><a href=\"Organization-hopitaltest-uf-4705-nutrition.html\">Organization UF Nutrition</a></td></tr></table></blockquote><hr/><blockquote><p class=\"res-header-id\"><b>Narratif généré : List #eg-svc-members</b></p><a name=\"hopitaltest-eg-list/eg-svc-members\"> </a><a name=\"hchopitaltest-eg-list/eg-svc-members\"> </a><a name=\"hopitaltest-eg-list/eg-svc-members-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <code>http://example.org/fhir/StructureDefinition/fr-list-organization-members</code></p></div><h2>Services composant de l'établissement géographique</h2><table class=\"clstu\"><tr><td>Mode : Working List </td><td>Statut : Current </td></tr><tr><td/></tr></table><table class=\"grid\"><tr style=\"backgound-color: #eeeeee\"><td><b>Items</b></td></tr><tr><td><a href=\"Organization-hopitaltest-service-11006-endocrino-diabo.html\">Organization Service Endocrino Diabeto</a></td></tr><tr><td><a href=\"Organization-hopitaltest-service-11007-dietetique.html\">Organization Service Dietetique</a></td></tr></table></blockquote></div>"
+  },
+  "contained" : [{
+    "resourceType" : "List",
+    "id" : "eg-uf-members",
+    "meta" : {
+      "profile" : ["http://example.org/fhir/StructureDefinition/fr-list-organization-members"]
+    },
+    "status" : "current",
+    "mode" : "working",
+    "title" : "UF composant de l'établissement géographique",
+    "entry" : [{
+      "item" : {
+        "reference" : "Organization/hopitaltest-uf-4701-endocrino-diab"
+      }
+    },
+    {
+      "item" : {
+        "reference" : "Organization/hopitaltest-uf-4705-nutrition"
+      }
+    }]
+  },
+  {
+    "resourceType" : "List",
+    "id" : "eg-svc-members",
+    "meta" : {
+      "profile" : ["http://example.org/fhir/StructureDefinition/fr-list-organization-members"]
+    },
+    "status" : "current",
+    "mode" : "working",
+    "title" : "Services composant de l'établissement géographique",
+    "entry" : [{
+      "item" : {
+        "reference" : "Organization/hopitaltest-service-11006-endocrino-diabo"
+      }
+    },
+    {
+      "item" : {
+        "reference" : "Organization/hopitaltest-service-11007-dietetique"
+      }
+    }]
+  }],
+  "extension" : [{
+    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-sae-category",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+        "code" : "101",
+        "display" : "Centre hospitalier régional (CHR)"
+      }]
+    }
+  },
+  {
+    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-raison-sociale",
+    "valueString" : "CHRU CENTRE VILLE"
+  }],
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "FINEG",
+        "display" : "FINESS d'entité géographique"
+      }]
+    },
+    "system" : "https://finess.esante.gouv.fr",
+    "value" : "350009999"
+  },
+  {
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "SIREN",
+        "display" : "Identification de l'organisation au SIREN"
+      }]
+    },
+    "system" : "https://sirene.fr",
+    "value" : "26350007609999"
+  }],
+  "type" : [{
+    "coding" : [{
+      "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307",
+      "code" : "LEGAL-ENTITY",
+      "display" : "Entité légale"
+    }],
+    "text" : "Etablissement Géographique"
+  }],
+  "name" : "CHRU CENTRE VILLE"
+}

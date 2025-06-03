@@ -191,7 +191,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation Fr Core - Local Development build (v2.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7.fr/ig/fhir/core/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation Fr Core - Local Development build (v2.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://hl7.fr/ig/fhir/core/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -254,8 +254,36 @@ un lit d’hôpital ou une chambre d’hôpital.</p>
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="StructureDefinition-fr-core-organization-etablissement-wlist.html"
+                  title="StructureDefinition/fr-core-organization-etablissement-wlist">FR Core Organization Etablissement Profile (List)</a>
+            </td>
+            <td>
+<p>Profil de la ressource Organization permettant de représenter des établissements sanitaires et sociaux.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="StructureDefinition-fr-core-organization.html"
                   title="StructureDefinition/fr-core-organization">FR Core Organization Profile</a>
+            </td>
+            <td>
+<p>Profil de la ressource Organization pour la France. Il s’agit du profil de base pour les organisations en France.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-fr-core-organization-l.html"
+                  title="StructureDefinition/fr-core-organization-l">FR Core Organization Profile</a>
+            </td>
+            <td>
+<p>Profil de la ressource Organization pour la France. 
+Version avec List (pour member).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-fr-core-organization-list.html"
+                  title="StructureDefinition/fr-core-organization-list">FR Core Organization Profile</a>
             </td>
             <td>
 <p>Profil de la ressource Organization pour la France. Il s’agit du profil de base pour les organisations en France.</p>
@@ -429,6 +457,15 @@ This extension adds the insee code (5 digits) to the address</p>
             <td style="column-width:30%">
                <a href="StructureDefinition-fr-core-organization-member.html"
                   title="StructureDefinition/fr-core-organization-member">FR Core Organization Extension - Membre d'organisation</a>
+            </td>
+            <td>
+<p>Extension permettant de définir des membres d’une organisation.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-fr-core-organization-memberl.html"
+                  title="StructureDefinition/fr-core-organization-memberl">FR Core Organization Extension - Membre d'organisation</a>
             </td>
             <td>
 <p>Extension permettant de définir des membres d’une organisation.</p>
@@ -758,6 +795,42 @@ This extension adds the insee code (5 digits) to the address</p>
       <tbody>
          <tr>
             <td style="column-width:30%">
+               <a href="List-hopitaltest-dept-11003-endocrino-uf-list.html"
+                  title="List/hopitaltest-dept-11003-endocrino-uf-list">UF composant du département d'Endocrinologie</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-dept-11003-endocrino.html"
+                  title="Organization/hopitaltest-dept-11003-endocrino">hopitaltest-dept-11003-endocrino</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-dept-11003-endocrino-list.html"
+                  title="Organization/hopitaltest-dept-11003-endocrino-list">hopitaltest-dept-11003-endocrino-list</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-dept-11003-endocrino-list-contained.html"
+                  title="Organization/hopitaltest-dept-11003-endocrino-list-contained">hopitaltest-dept-11003-endocrino-list-contained</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-eg-4-members.html"
+                  title="Organization/hopitaltest-eg-4-members">hopitaltest-eg-4-members</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-eg-list.html"
+                  title="Organization/hopitaltest-eg-list">hopitaltest-eg-list</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="Organization-hopitaltest-ej-350005179.html"
                   title="Organization/hopitaltest-ej-350005179">hopitaltest-ej-350005179</a>
             </td>
@@ -766,6 +839,18 @@ This extension adds the insee code (5 digits) to the address</p>
             <td style="column-width:30%">
                <a href="Organization-hopitaltest-pole-1150-med-spe.html"
                   title="Organization/hopitaltest-pole-1150-med-spe">hopitaltest-pole-1150-med-spe</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-service-11006-endocrino-diabo.html"
+                  title="Organization/hopitaltest-service-11006-endocrino-diabo">hopitaltest-service-11006-endocrino-diabo</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-service-11007-dietetique.html"
+                  title="Organization/hopitaltest-service-11007-dietetique">hopitaltest-service-11007-dietetique</a>
             </td>
          </tr>
          <tr>
@@ -784,6 +869,18 @@ This extension adds the insee code (5 digits) to the address</p>
             <td style="column-width:30%">
                <a href="Organization-hopitaltest-uf-4420-dialyse.html"
                   title="Organization/hopitaltest-uf-4420-dialyse">hopitaltest-uf-4420-dialyse</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-uf-4701-endocrino-diab.html"
+                  title="Organization/hopitaltest-uf-4701-endocrino-diab">hopitaltest-uf-4701-endocrino-diab</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-hopitaltest-uf-4705-nutrition.html"
+                  title="Organization/hopitaltest-uf-4705-nutrition">hopitaltest-uf-4705-nutrition</a>
             </td>
          </tr>
       </tbody>
@@ -828,7 +925,7 @@ This extension adds the insee code (5 digits) to the address</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package hl7.fhir.fr.core#2.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, May 24, 2025 18:31+0200">2025-05-24</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package hl7.fhir.fr.core#2.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 3, 2025 19:04+0200">2025-06-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

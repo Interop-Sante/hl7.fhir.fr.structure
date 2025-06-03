@@ -11,14 +11,14 @@
   fhir:id [ fhir:v "hl7.fhir.fr.core"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.fr.core</b></p><a name=\"hl7.fhir.fr.core\"> </a><a name=\"hchl7.fhir.fr.core\"> </a><a name=\"hl7.fhir.fr.core-fr-FR\"> </a><h2>FrCore</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core</pre></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide hl7.fhir.fr.core</b></p><a name=\"hl7.fhir.fr.core\"> </a><a name=\"hchl7.fhir.fr.core\"> </a><a name=\"hl7.fhir.fr.core-fr-FR\"> </a><h2>FrCore</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core</pre></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2.1.0"] ; # 
   fhir:name [ fhir:v "FrCore"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation Fr Core"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-05-24T18:31:28+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-03T19:04:37+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -58,7 +58,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.3.0" ]
+     fhir:version [ fhir:v "6.4.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -1218,6 +1218,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement-wlist> ;
+         fhir:reference [ fhir:v "StructureDefinition/fr-core-organization-etablissement-wlist" ]
+       ] ;
+       fhir:name [ fhir:v "FR Core Organization Etablissement Profile (List)" ] ;
+       fhir:description [ fhir:v "Profil de la ressource Organization permettant de représenter des établissements sanitaires et sociaux." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "StructureDefinition:extension"
          ]
        ] ) ;
@@ -1366,6 +1384,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-memberl> ;
+         fhir:reference [ fhir:v "StructureDefinition/fr-core-organization-memberl" ]
+       ] ;
+       fhir:name [ fhir:v "FR Core Organization Extension - Membre d'organisation" ] ;
+       fhir:description [ fhir:v "Extension permettant de définir des membres d'une organisation." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-place-hebergement-theorique> ;
          fhir:reference [ fhir:v "StructureDefinition/fr-core-organization-place-hebergement-theorique" ]
        ] ;
@@ -1440,6 +1476,42 @@
        fhir:reference [
          fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization> ;
          fhir:reference [ fhir:v "StructureDefinition/fr-core-organization" ]
+       ] ;
+       fhir:name [ fhir:v "FR Core Organization Profile" ] ;
+       fhir:description [ fhir:v "Profil de la ressource Organization pour la France. Il s'agit du profil de base pour les organisations en France." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l> ;
+         fhir:reference [ fhir:v "StructureDefinition/fr-core-organization-l" ]
+       ] ;
+       fhir:name [ fhir:v "FR Core Organization Profile" ] ;
+       fhir:description [ fhir:v "Profil de la ressource Organization pour la France. \nVersion avec List (pour member)." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-list> ;
+         fhir:reference [ fhir:v "StructureDefinition/fr-core-organization-list" ]
        ] ;
        fhir:name [ fhir:v "FR Core Organization Profile" ] ;
        fhir:description [ fhir:v "Profil de la ressource Organization pour la France. Il s'agit du profil de base pour les organisations en France." ] ;
@@ -1834,6 +1906,96 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-dept-11003-endocrino> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-dept-11003-endocrino" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-dept-11003-endocrino" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-dept-11003-endocrino-list> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-dept-11003-endocrino-list" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-dept-11003-endocrino-list" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-dept-11003-endocrino-list-contained> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-dept-11003-endocrino-list-contained" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-dept-11003-endocrino-list-contained" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-eg-4-members> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-eg-4-members" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-eg-4-members" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-eg-list> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-eg-list" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-eg-list" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement-wlist"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement-wlist>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-ej-350005179> ;
          fhir:reference [ fhir:v "Organization/hopitaltest-ej-350005179" ]
        ] ;
@@ -1856,6 +2018,42 @@
          fhir:reference [ fhir:v "Organization/hopitaltest-pole-1150-med-spe" ]
        ] ;
        fhir:name [ fhir:v "hopitaltest-pole-1150-med-spe" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-service-11006-endocrino-diabo> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-service-11006-endocrino-diabo" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-service-11006-endocrino-diabo" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-service-11007-dietetique> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-service-11007-dietetique" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-service-11007-dietetique" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"^^xsd:anyURI ;
@@ -1914,6 +2112,60 @@
          a fhir:canonical ;
          fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf"^^xsd:anyURI ;
          fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-uf-4701-endocrino-diab> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-uf-4701-endocrino-diab" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-uf-4701-endocrino-diab" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/Organization/hopitaltest-uf-4705-nutrition> ;
+         fhir:reference [ fhir:v "Organization/hopitaltest-uf-4705-nutrition" ]
+       ] ;
+       fhir:name [ fhir:v "hopitaltest-uf-4705-nutrition" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "List"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7.fr/ig/fhir/core/List/hopitaltest-dept-11003-endocrino-uf-list> ;
+         fhir:reference [ fhir:v "List/hopitaltest-dept-11003-endocrino-uf-list" ]
+       ] ;
+       fhir:name [ fhir:v "UF composant du département d'Endocrinologie" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-list"^^xsd:anyURI ;
+         fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-list>
        ]
      ] ) ;
      fhir:page [

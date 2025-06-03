@@ -3,14 +3,14 @@
   "id" : "hl7.fhir.fr.core",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.fr.core</b></p><a name=\"hl7.fhir.fr.core\"> </a><a name=\"hchl7.fhir.fr.core\"> </a><a name=\"hl7.fhir.fr.core-fr-FR\"> </a><h2>FrCore</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide hl7.fhir.fr.core</b></p><a name=\"hl7.fhir.fr.core\"> </a><a name=\"hchl7.fhir.fr.core\"> </a><a name=\"hl7.fhir.fr.core-fr-FR\"> </a><h2>FrCore</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core</pre></div>"
   },
   "url" : "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core",
   "version" : "2.1.0",
   "name" : "FrCore",
   "title" : "Guide d'implémentation Fr Core",
   "status" : "active",
-  "date" : "2025-05-24T18:31:28+02:00",
+  "date" : "2025-06-03T19:04:37+02:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -45,7 +45,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.3.0"
+    "version" : "6.4.0"
   },
   {
     "id" : "hl7ext",
@@ -871,6 +871,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-core-organization-etablissement-wlist"
+      },
+      "name" : "FR Core Organization Etablissement Profile (List)",
+      "description" : "Profil de la ressource Organization permettant de représenter des établissements sanitaires et sociaux.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -970,6 +982,18 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/fr-core-organization-memberl"
+      },
+      "name" : "FR Core Organization Extension - Membre d'organisation",
+      "description" : "Extension permettant de définir des membres d'une organisation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/fr-core-organization-place-hebergement-theorique"
       },
       "name" : "FR Core Organization Extension - Nombre total de places d'hébergement théoriques",
@@ -1019,6 +1043,30 @@
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-core-organization"
+      },
+      "name" : "FR Core Organization Profile",
+      "description" : "Profil de la ressource Organization pour la France. Il s'agit du profil de base pour les organisations en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-core-organization-l"
+      },
+      "name" : "FR Core Organization Profile",
+      "description" : "Profil de la ressource Organization pour la France. \nVersion avec List (pour member).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-core-organization-list"
       },
       "name" : "FR Core Organization Profile",
       "description" : "Profil de la ressource Organization pour la France. Il s'agit du profil de base pour les organisations en France.",
@@ -1282,6 +1330,61 @@
         "valueString" : "Organization"
       }],
       "reference" : {
+        "reference" : "Organization/hopitaltest-dept-11003-endocrino"
+      },
+      "name" : "hopitaltest-dept-11003-endocrino",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-dept-11003-endocrino-list"
+      },
+      "name" : "hopitaltest-dept-11003-endocrino-list",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-dept-11003-endocrino-list-contained"
+      },
+      "name" : "hopitaltest-dept-11003-endocrino-list-contained",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-eg-4-members"
+      },
+      "name" : "hopitaltest-eg-4-members",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-eg-list"
+      },
+      "name" : "hopitaltest-eg-list",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement-wlist"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
         "reference" : "Organization/hopitaltest-ej-350005179"
       },
       "name" : "hopitaltest-ej-350005179",
@@ -1296,6 +1399,28 @@
         "reference" : "Organization/hopitaltest-pole-1150-med-spe"
       },
       "name" : "hopitaltest-pole-1150-med-spe",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-service-11006-endocrino-diabo"
+      },
+      "name" : "hopitaltest-service-11006-endocrino-diabo",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-service-11007-dietetique"
+      },
+      "name" : "hopitaltest-service-11007-dietetique",
       "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"
     },
     {
@@ -1330,6 +1455,39 @@
       },
       "name" : "hopitaltest-uf-4420-dialyse",
       "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-uf-4701-endocrino-diab"
+      },
+      "name" : "hopitaltest-uf-4701-endocrino-diab",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/hopitaltest-uf-4705-nutrition"
+      },
+      "name" : "hopitaltest-uf-4705-nutrition",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "List"
+      }],
+      "reference" : {
+        "reference" : "List/hopitaltest-dept-11003-endocrino-uf-list"
+      },
+      "name" : "UF composant du département d'Endocrinologie",
+      "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-list"
     }],
     "page" : {
       "extension" : [{

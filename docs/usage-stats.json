@@ -112,6 +112,63 @@
       ]
     },
     {
+      "url": "http://example.org/fhir/StructureDefinition/organization-member-list",
+      "title": "FR Core Organization Extension - Membre d\u0027organisation",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "Reference"
+      ]
+    },
+    {
       "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code",
       "title": "FR Core Address Insee Code Extension",
       "types": [
@@ -397,14 +454,6 @@
     ],
     "Organization": [
       {
-        "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization",
-        "title": "FR Core Organization Profile"
-      },
-      {
-        "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement",
-        "title": "FR Core Organization Etablissement Profile"
-      },
-      {
         "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uac",
         "title": "FR Core Organization UAC Profile"
       },
@@ -412,10 +461,19 @@
         "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-uf",
         "title": "FR Core Organization UF Profile"
       }
+    ],
+    "List": [
+      {
+        "url": "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-list",
+        "title": "FR Core Organization Profile"
+      }
     ]
   },
   "usage": {
     "http://example.org/fhir/StructureDefinition/organization-member": [
+      "Organization"
+    ],
+    "http://example.org/fhir/StructureDefinition/organization-member-list": [
       "Organization"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [

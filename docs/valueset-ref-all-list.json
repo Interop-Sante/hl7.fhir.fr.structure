@@ -69,9 +69,11 @@
       "uses" : {
       },
       "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
-      "StructureDefinition-fr-core-organization-uac.html" : "FR Core Organization UAC Profile",
       "StructureDefinition-fr-core-organization.html" : "FR Core Organization Profile",
-      "StructureDefinition-fr-core-organization-uf.html" : "FR Core Organization UF Profile"
+      "StructureDefinition-fr-core-organization-uac.html" : "FR Core Organization UAC Profile",
+      "StructureDefinition-fr-core-organization-l.html" : "FR Core Organization Profile",
+      "StructureDefinition-fr-core-organization-uf.html" : "FR Core Organization UF Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -99,7 +101,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile"
+      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -114,10 +117,99 @@
       "uses" : {
       },
       "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
-      "StructureDefinition-fr-core-location.html" : "FR Core Location Profile",
-      "StructureDefinition-fr-core-organization-uac.html" : "FR Core Organization UAC Profile",
       "StructureDefinition-fr-core-organization.html" : "FR Core Organization Profile",
-      "StructureDefinition-fr-core-organization-uf.html" : "FR Core Organization UF Profile"
+      "StructureDefinition-fr-core-organization-uac.html" : "FR Core Organization UAC Profile",
+      "StructureDefinition-fr-core-organization-l.html" : "FR Core Organization Profile",
+      "StructureDefinition-fr-core-location.html" : "FR Core Location Profile",
+      "StructureDefinition-fr-core-organization-uf.html" : "FR Core Organization UF Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)",
+      "StructureDefinition-fr-core-organization-list.html" : "FR Core Organization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListEmptyReasons",
+      "title" : "List Empty Reasons",
+      "description" : "General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/list-empty-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.322"],
+      "sources" : ["2.16.840.1.113883.4.642.3.322"],
+      "uses" : {
+      },
+      "StructureDefinition-fr-core-organization-list.html" : "FR Core Organization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-example-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ExampleUseCodesForList",
+      "title" : "Example Use Codes for List",
+      "description" : "Example use codes for the List resource - typical kinds of use.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/list-example-use-codes"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.316"],
+      "sources" : ["2.16.840.1.113883.4.642.3.316"],
+      "uses" : {
+      },
+      "StructureDefinition-fr-core-organization-list.html" : "FR Core Organization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-item-flag",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PatientMedicineChangeTypes",
+      "title" : "Patient Medicine Change Types",
+      "description" : "Example Item Flags for the List Resource. In this case, these are the kind of flags that would be used on a medication list at the end of a consultation.",
+      "systems" : ["urn:oid:1.2.36.1.2001.1001.101.104.16592"],
+      "oids" : ["2.16.840.1.113883.4.642.3.320"],
+      "sources" : ["2.16.840.1.113883.4.642.3.320"],
+      "uses" : {
+      },
+      "StructureDefinition-fr-core-organization-list.html" : "FR Core Organization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListMode",
+      "title" : "ListMode",
+      "description" : "The processing mode that applies to this list.",
+      "systems" : ["http://hl7.org/fhir/list-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.318"],
+      "sources" : ["2.16.840.1.113883.4.642.3.318"],
+      "uses" : {
+      },
+      "StructureDefinition-fr-core-organization-list.html" : "FR Core Organization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-order",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListOrderCodes",
+      "title" : "List Order Codes",
+      "description" : "Base values for the order of the items in a list resource.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/list-order"],
+      "oids" : ["2.16.840.1.113883.4.642.3.324"],
+      "sources" : ["2.16.840.1.113883.4.642.3.324"],
+      "uses" : {
+      },
+      "StructureDefinition-fr-core-organization-list.html" : "FR Core Organization Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/list-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListStatus",
+      "title" : "ListStatus",
+      "description" : "The current state of the list.",
+      "systems" : ["http://hl7.org/fhir/list-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.326"],
+      "sources" : ["2.16.840.1.113883.4.642.3.326"],
+      "uses" : {
+      },
+      "StructureDefinition-fr-core-organization-list.html" : "FR Core Organization Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -343,7 +435,8 @@
       "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307"],
       "uses" : {
       },
-      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile"
+      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-identifier-type",
@@ -355,7 +448,8 @@
       "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"],
       "uses" : {
       },
-      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile"
+      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type",
@@ -367,10 +461,12 @@
       "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307"],
       "uses" : {
       },
+      "StructureDefinition-fr-core-organization.html" : "FR Core Organization Profile",
       "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
       "StructureDefinition-fr-core-organization-uac.html" : "FR Core Organization UAC Profile",
-      "StructureDefinition-fr-core-organization.html" : "FR Core Organization Profile",
-      "StructureDefinition-fr-core-organization-uf.html" : "FR Core Organization UF Profile"
+      "StructureDefinition-fr-core-organization-l.html" : "FR Core Organization Profile",
+      "StructureDefinition-fr-core-organization-uf.html" : "FR Core Organization UF Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-uac-type",

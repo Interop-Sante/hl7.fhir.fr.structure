@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c0a183e6-4f4c-4c24-96cb-cac070bdca9f"/>
+  <id value="b667d15d-fd75-4625-bd98-62909c6d4929"/>
   <meta>
-    <lastUpdated value="2025-05-24T18:31:51.774+02:00"/>
+    <lastUpdated value="2025-06-03T19:04:54.172+02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -18,9 +18,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="https://interop.esante.gouv.fr/ig/nos/1.3.0/CodeSystem-TRE-R66-CategorieEtablissement.html">codesystem TRE_R66-CategorieEtablissement v1.3.0 (CodeSystem)</a>
             </p>
@@ -311,8 +309,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:42fae516-7ef7-4d1c-8f12-d26175531dcd"/>
-          <timestamp value="2025-05-24T18:32:21+02:00"/>
+          <identifier value="urn:uuid:6d7e27d3-7abc-447b-9e0a-be0f2d5b7347"/>
+          <timestamp value="2025-06-03T19:06:03+02:00"/>
           <total value="32"/>
           <offset value="0"/>
           <parameter>
@@ -477,9 +475,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-discipline-prestation.html">codesystem FR Core CodeSystem Discipline de prestation - nomenclature SAE v2.1.0 (CodeSystem)</a>
             </p>
@@ -2569,7 +2565,7 @@
         <title value="FR Core ValueSet Organization Discipline de prestation - nomenclature SAE"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2578,8 +2574,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ba25440b-8831-4662-ac5d-57548e2fbc85"/>
-          <timestamp value="2025-05-24T18:32:21+02:00"/>
+          <identifier value="urn:uuid:f2c12d78-e165-4121-a6f5-dab1d3c35a42"/>
+          <timestamp value="2025-06-03T19:06:03+02:00"/>
           <total value="258"/>
           <offset value="0"/>
           <parameter>
@@ -3652,9 +3648,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="https://interop.esante.gouv.fr/ig/nos/1.3.0/CodeSystem-TRE-R256-TypeMessagerie.html">codesystem TRE_R256-TypeMessagerie v1.3.0 (CodeSystem)</a>
             </p>
@@ -3712,7 +3706,7 @@
         <title value="FR Core ValueSet Email type"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3721,8 +3715,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9ed2660a-091e-4359-909f-6bc6fa3d4d46"/>
-          <timestamp value="2025-05-24T18:32:23+02:00"/>
+          <identifier value="urn:uuid:c6496fa3-e3f4-43a0-b0b0-ac1036ef8804"/>
+          <timestamp value="2025-06-03T19:06:04+02:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3775,9 +3769,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="https://smt.esante.gouv.fr/fhir/ValueSet/TRE-R13-CommuneOM">codesystem TRE_R13_CommuneOM v20240628120000 (CodeSystem)</a>
             </p>
@@ -11807,7 +11799,7 @@
         <title value="FR Core ValueSet INSEE code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11816,8 +11808,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8460b92f-50b0-4f4e-88ce-13b99414446c"/>
-          <timestamp value="2025-05-24T18:32:23+02:00"/>
+          <identifier value="urn:uuid:47a38557-9099-4ec0-91e7-c10134dbca9a"/>
+          <timestamp value="2025-06-03T19:06:04+02:00"/>
           <total value="39293"/>
           <offset value="0"/>
           <parameter>
@@ -16854,9 +16846,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-location-position-lit.html">codesystem FR Core CodeSystem Position du lit v2.1.0 (CodeSystem)</a>
             </p>
@@ -16906,7 +16896,7 @@
         <title value="FR Core ValueSet Location Position Lit"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16915,8 +16905,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a166b769-5559-445d-97ad-1a9b9b62d1ae"/>
-          <timestamp value="2025-05-24T18:32:29+02:00"/>
+          <identifier value="urn:uuid:ad591c05-3d3f-4f62-8cc5-108b3bb05abe"/>
+          <timestamp value="2025-06-03T19:06:10+02:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -16965,9 +16955,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-location-type-chambre.html">codesystem FR Core CodeSystem Type Chambre v2.1.0 (CodeSystem)</a>
             </p>
@@ -17033,7 +17021,7 @@
         <title value="FR Core ValueSet Location Type Chambre"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17042,8 +17030,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:aae7fa0c-eb53-454a-89b8-39b5b4aa9227"/>
-          <timestamp value="2025-05-24T18:32:29+02:00"/>
+          <identifier value="urn:uuid:91dd912e-da43-477a-9b83-f7dd5113a8e3"/>
+          <timestamp value="2025-06-03T19:06:10+02:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -17100,9 +17088,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-location-type.html">codesystem FR Core CodeSystem Location Type v2.1.0 (CodeSystem)</a>
             </p>
@@ -17224,7 +17210,7 @@
         <title value="FR Core ValueSet Location type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17233,8 +17219,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ac049931-3e61-434a-93f4-ae17f19bd739"/>
-          <timestamp value="2025-05-24T18:32:30+02:00"/>
+          <identifier value="urn:uuid:1e346a9b-36de-4644-a124-d65c689a3b9c"/>
+          <timestamp value="2025-06-03T19:06:10+02:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -17319,9 +17305,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-code-tarif-tnjp.html">codesystem FR Core CodeSystem Codes Tarifs - nomenclature TNJP v2.1.0 (CodeSystem)</a>
             </p>
@@ -17691,7 +17675,7 @@
         <title value="FR Core ValueSet Codes Tarifs - nomenclature TNJP"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17700,8 +17684,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a51cef93-4fb3-493f-89ec-3b7c7d672f78"/>
-          <timestamp value="2025-05-24T18:32:30+02:00"/>
+          <identifier value="urn:uuid:c9a524e6-b5dc-4144-919a-892aad58c715"/>
+          <timestamp value="2025-06-03T19:06:11+02:00"/>
           <total value="43"/>
           <offset value="0"/>
           <parameter>
@@ -17914,9 +17898,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-type-activite.html">codesystem FR Core CodeSystem Type d'activité - nomenclature SAE v2.1.0 (CodeSystem)</a>
             </p>
@@ -18238,7 +18220,7 @@
         <title value="FR Core ValueSet Organization Type Activité - nomenclature SAE"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -18247,8 +18229,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a0fa2f57-35dd-4d14-bf48-03c1ecd856f4"/>
-          <timestamp value="2025-05-24T18:32:30+02:00"/>
+          <identifier value="urn:uuid:c573ff8f-a723-46f8-a352-0b51d089345a"/>
+          <timestamp value="2025-06-03T19:06:11+02:00"/>
           <total value="37"/>
           <offset value="0"/>
           <parameter>
@@ -18437,9 +18419,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-champ-activite.html">codesystem FR Core CodeSystem Champ Activite - Codes du champ d'activité v2.1.0 (CodeSystem)</a>
             </p>
@@ -18529,7 +18509,7 @@
         <title value="FR Core ValueSet Organization Champ Activite - Champ d'activité clinique de l'organisation type UF"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -18539,8 +18519,8 @@
         </jurisdiction>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:5327605e-0236-4ee8-9ac8-958a23f96479"/>
-          <timestamp value="2025-05-24T18:32:30+02:00"/>
+          <identifier value="urn:uuid:df8e9c22-e33b-4bc9-b0a3-fab165b3a7f5"/>
+          <timestamp value="2025-06-03T19:06:11+02:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -18613,9 +18593,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-discipline-equipement.html">codesystem FR Core CodeSystem Discipline d'Equipement - nomenclature SAE v2.1.0 (CodeSystem)</a>
             </p>
@@ -19689,7 +19667,7 @@
         <title value="FR Core ValueSet Organization Discipline d'Equipement - nomenclature SAE"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -19698,8 +19676,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:eb3b589c-bbfe-47a4-b3fe-f7779fe2e709"/>
-          <timestamp value="2025-05-24T18:32:31+02:00"/>
+          <identifier value="urn:uuid:c50b215a-f7a5-4883-ba82-baaf748af23d"/>
+          <timestamp value="2025-06-03T19:06:11+02:00"/>
           <total value="131"/>
           <offset value="0"/>
           <parameter>
@@ -20264,9 +20242,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-v2-3307.html">codesystem FR Core CodeSystem v2-3307 v2.1.0 (CodeSystem)</a>
             </p>
@@ -20308,7 +20284,7 @@
         <title value="FR Core ValueSet Organization Etablisement type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -20317,8 +20293,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b9788464-8b02-469d-82db-efbfeb7c5e04"/>
-          <timestamp value="2025-05-24T18:32:31+02:00"/>
+          <identifier value="urn:uuid:19964aae-abf4-4e6e-8780-8e39bf195b32"/>
+          <timestamp value="2025-06-03T19:06:12+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -20367,9 +20343,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-v2-3307.html">codesystem FR Core CodeSystem v2-3307 v2.1.0 (CodeSystem)</a>
             </p>
@@ -20475,7 +20449,7 @@
         <title value="FR Core ValueSet Organization type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -20484,8 +20458,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2f01509b-cfa8-4390-ad5a-275d9ce7b3fc"/>
-          <timestamp value="2025-05-24T18:32:32+02:00"/>
+          <identifier value="urn:uuid:902a8f3e-0798-4ad6-ad10-6c5f070f6271"/>
+          <timestamp value="2025-06-03T19:06:12+02:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -20566,9 +20540,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-v2-3307.html">codesystem FR Core CodeSystem v2-3307 v2.1.0 (CodeSystem)</a>
             </p>
@@ -20602,7 +20574,7 @@
         <title value="FR Core ValueSet Organization UAC type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -20611,8 +20583,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3c7c0087-a4f0-4879-a511-cd9d25ba0102"/>
-          <timestamp value="2025-05-24T18:32:32+02:00"/>
+          <identifier value="urn:uuid:be0d8372-b7c1-49a4-95f4-3aee792a8cf6"/>
+          <timestamp value="2025-06-03T19:06:12+02:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -20657,9 +20629,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-uf-indicateur.html">codesystem FR Core CodeSystem UF Indicator - indicateur d'une unité fonctionnelle v2.1.0 (CodeSystem)</a>
             </p>
@@ -20740,7 +20710,7 @@
         <name value="FRCoreValueSetOrganizationUFIndicateur"/>
         <title value="FR Core ValueSet Organization UF type"/>
         <status value="active"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -20749,8 +20719,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:740f9782-6287-4a5e-93b8-360b4c00025a"/>
-          <timestamp value="2025-05-24T18:32:32+02:00"/>
+          <identifier value="urn:uuid:2e4ff4c7-bbd2-426d-a671-504c84c51265"/>
+          <timestamp value="2025-06-03T19:06:12+02:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -20819,9 +20789,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-fr-core-cs-v2-3307.html">codesystem FR Core CodeSystem v2-3307 v2.1.0 (CodeSystem)</a>
             </p>
@@ -20855,7 +20823,7 @@
         <title value="FR Core ValueSet Organization UF type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-05-24T18:31:28+02:00"/>
+        <date value="2025-06-03T19:04:37+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -20864,8 +20832,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b3ce6bf6-f043-4054-9b52-5511a538ac80"/>
-          <timestamp value="2025-05-24T18:32:32+02:00"/>
+          <identifier value="urn:uuid:dfb63f59-3064-446d-9cd3-ee9cd3ee316f"/>
+          <timestamp value="2025-06-03T19:06:12+02:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>

@@ -73,6 +73,30 @@
       "http://hl7.org/fhir/R4/valueset-identifier-use.html" : "IdentifierUse"
     },
     {
+      "url" : "http://hl7.org/fhir/list-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListMode",
+      "title" : "ListMode",
+      "description" : "The processing mode that applies to this list.",
+      "oids" : ["2.16.840.1.113883.4.642.4.319"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-list-mode.html" : "ListMode"
+    },
+    {
+      "url" : "http://hl7.org/fhir/list-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ListStatus",
+      "title" : "ListStatus",
+      "description" : "The current state of the list.",
+      "oids" : ["2.16.840.1.113883.4.642.4.327"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-list-status.html" : "ListStatus"
+    },
+    {
       "url" : "http://hl7.org/fhir/location-mode",
       "version" : "4.0.1",
       "status" : "draft",
@@ -107,6 +131,42 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-contactentity-type.html" : "Contact entity type"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ListEmptyReasons",
+      "title" : "List Empty Reasons",
+      "description" : "General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).",
+      "oids" : ["2.16.840.1.113883.4.642.1.1106"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-list-empty-reason.html" : "List Empty Reasons"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ExampleUseCodesForList",
+      "title" : "Example Use Codes for List",
+      "description" : "Example use codes for the List resource - typical kinds of use.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1105"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-list-example-codes.html" : "Example Use Codes for List"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/list-order",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ListOrderCodes",
+      "title" : "List Order Codes",
+      "description" : "Base values for the order of the items in a list resource.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1107"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-list-order.html" : "List Order Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
@@ -240,10 +300,10 @@
       "description" : "HL7 v2 - Table 3307",
       "uses" : {
       },
-      "ValueSet-fr-core-vs-organization-type.html" : "FR Core ValueSet Organization type",
-      "ValueSet-fr-core-vs-organization-uac-type.html" : "FR Core ValueSet Organization UAC type",
       "ValueSet-fr-core-vs-organization-uf-type.html" : "FR Core ValueSet Organization UF type",
-      "ValueSet-fr-core-vs-organization-etablissement-type.html" : "FR Core ValueSet Organization Etablisement type"
+      "ValueSet-fr-core-vs-organization-type.html" : "FR Core ValueSet Organization type",
+      "ValueSet-fr-core-vs-organization-etablissement-type.html" : "FR Core ValueSet Organization Etablisement type",
+      "ValueSet-fr-core-vs-organization-uac-type.html" : "FR Core ValueSet Organization UAC type"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
@@ -292,6 +352,21 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+    },
+    {
+      "url" : "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PatientMedicineChangeTypes",
+      "title" : "Patient Medicine Change Types",
+      "description" : "Example Item Flags for the List Resource. In this case, these are the kind of flags that would be used on a medication list at the end of a consultation.",
+      "oids" : [
+        "1.2.36.1.2001.1001.101.104.16592",
+        "2.16.840.1.113883.4.642.4.321"
+      ],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-list-item-flag.html" : "Patient Medicine Change Types"
     }
   ]
 }

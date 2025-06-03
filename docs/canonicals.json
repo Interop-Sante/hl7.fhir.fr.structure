@@ -7,6 +7,13 @@
     "name" : "FRCoreOrganizationMemberExtension"
   },
   {
+    "id" : "fr-core-organization-memberl",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/fhir/StructureDefinition/organization-member-list",
+    "version" : "2.1.0",
+    "name" : "FRCoreOrganizationMemberLExtension"
+  },
+  {
     "id" : "fr-core-cs-champ-activite",
     "type" : "CodeSystem",
     "url" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-champ-activite",
@@ -182,11 +189,32 @@
     "name" : "FRCoreOrganizationEtablissementProfile"
   },
   {
+    "id" : "fr-core-organization-etablissement-wlist",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-etablissement-wlist",
+    "version" : "2.1.0",
+    "name" : "FRCoreOrganizationEtablissementProfileL"
+  },
+  {
     "id" : "fr-core-organization-executante-acte",
     "type" : "StructureDefinition",
     "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-executante-acte",
     "version" : "2.1.0",
     "name" : "FRCoreOrganizationExecutanteActeExtension"
+  },
+  {
+    "id" : "fr-core-organization-l",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-l",
+    "version" : "2.1.0",
+    "name" : "FRCoreOrganizationProfileL"
+  },
+  {
+    "id" : "fr-core-organization-list",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-list",
+    "version" : "2.1.0",
+    "name" : "FRCoreOrganizationListProfile"
   },
   {
     "id" : "fr-core-organization-place-hebergement-theorique",

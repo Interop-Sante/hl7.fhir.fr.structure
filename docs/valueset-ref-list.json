@@ -12,7 +12,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile"
+      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-categorie-sae-etablissement",
@@ -180,7 +181,8 @@
       "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307"],
       "uses" : {
       },
-      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile"
+      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-identifier-type",
@@ -192,7 +194,8 @@
       "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"],
       "uses" : {
       },
-      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile"
+      "StructureDefinition-fr-core-organization-etablissement.html" : "FR Core Organization Etablissement Profile",
+      "StructureDefinition-fr-core-organization-etablissement-wlist.html" : "FR Core Organization Etablissement Profile (List)"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type",
@@ -204,7 +207,8 @@
       "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-3307"],
       "uses" : {
       },
-      "StructureDefinition-fr-core-organization.html" : "FR Core Organization Profile"
+      "StructureDefinition-fr-core-organization.html" : "FR Core Organization Profile",
+      "StructureDefinition-fr-core-organization-l.html" : "FR Core Organization Profile"
     },
     {
       "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-uac-type",
