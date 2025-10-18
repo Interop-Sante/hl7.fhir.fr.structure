@@ -25,8 +25,6 @@ Description: """Profil de la ressource Organization permettant de représenter d
 * identifier ^slicing.rules = #open
 * identifier ^slicing.description = "Slice based on the identifier.system pattern"
 
-// * identifier contains idNatSt 0..1 and siren 0..* and siret 0..* and finess 0..* and rppsRang 0..*
-
 * identifier contains
     idNatSt 0..0    and
     siren 0..*      and
