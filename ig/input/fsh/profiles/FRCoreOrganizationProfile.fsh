@@ -3,7 +3,6 @@ Parent: Organization
 Id: fr-core-organization
 Title: "FR Core Organization Profile"
 Description: """Profil de la ressource Organization pour la France. Il s'agit du profil de base pour les organisations en France."""
-//* ^purpose = """"""
 
 * ^version = "1.0.0"
 * ^status = #active
