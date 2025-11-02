@@ -5,7 +5,6 @@ Title: "FR Core Location Profile"
 Description: """Ressource Location adaptée au contexte français. 
 Cette ressource est utilisée pour représenter un lieu physique, telle qu'une salle d'examen, 
 un lit d'hôpital ou une chambre d'hôpital. """
-//* ^purpose = """Location Purpose"""
 
 * ^version = "1.0.0"
 * ^status = #active

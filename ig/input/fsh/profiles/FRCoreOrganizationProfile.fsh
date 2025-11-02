@@ -21,7 +21,6 @@ Description: """Profil de la ressource Organization pour la France. Il s'agit du
 
 * type  from FRCoreValueSetOrganizationType (required)
 * telecom only FRCoreContactPointProfile
-//* partOf only Reference(FRCoreOrganizationProfile or FRCoreOrganizationUACProfile or FRCoreOrganizationEtablissementProfile or FRCoreOrganizationUFProfile)
 * partOf only Reference(FRCoreOrganizationProfile or FRCoreOrganizationEtablissementProfile)
 * partOf.type from FRCoreValueSetOrganizationType (extensible)
 
