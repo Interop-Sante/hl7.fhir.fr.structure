@@ -418,6 +418,9 @@
     "http://example.org/fhir/StructureDefinition/organization-member": [
       "Organization"
     ],
+    "http://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-position-lit": [
+      "Location"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],

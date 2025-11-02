@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="bd710f4d-2ad8-408c-b1e7-5aa08023c63c"/>
+  <id value="a24b6413-58af-45de-9aab-7613fa07d2ac"/>
   <meta>
-    <lastUpdated value="2025-11-02T16:31:57.120+01:00"/>
+    <lastUpdated value="2025-11-02T18:22:16.448+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -737,8 +737,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:675d4186-6620-44bf-b195-a60a8a3c1070"/>
-          <timestamp value="2025-11-02T16:32:42+01:00"/>
+          <identifier value="urn:uuid:b1301cba-9c38-4ed0-8ec0-c9495c4b6bc2"/>
+          <timestamp value="2025-11-02T18:22:57+01:00"/>
           <total value="32"/>
           <offset value="0"/>
           <parameter>
@@ -6359,7 +6359,7 @@
         <title value="FR Core ValueSet Organization Discipline de prestation - nomenclature SAE"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6368,8 +6368,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:68c7d2f8-0619-48f7-a586-3c8b6b3a2141"/>
-          <timestamp value="2025-11-02T16:32:42+01:00"/>
+          <identifier value="urn:uuid:9b8732de-472e-4223-a5c8-7dd08c29b2c3"/>
+          <timestamp value="2025-11-02T18:22:58+01:00"/>
           <total value="258"/>
           <offset value="0"/>
           <parameter>
@@ -7564,7 +7564,7 @@
         <title value="FR Core ValueSet Email type"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -7573,8 +7573,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5e4d50f0-7e90-40c4-93d5-57bdcc67e76f"/>
-          <timestamp value="2025-11-02T16:32:44+01:00"/>
+          <identifier value="urn:uuid:2dc45032-bcb5-4664-b9c6-8488a2272f80"/>
+          <timestamp value="2025-11-02T18:22:59+01:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -25665,7 +25665,7 @@
         <title value="FR Core ValueSet INSEE code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -25674,8 +25674,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3d4a1155-f8c0-4051-a9c3-e12b39e32fe6"/>
-          <timestamp value="2025-11-02T16:32:44+01:00"/>
+          <identifier value="urn:uuid:5531cf19-3d9b-4007-ab6b-4c9d7358659b"/>
+          <timestamp value="2025-11-02T18:22:59+01:00"/>
           <total value="39293"/>
           <offset value="0"/>
           <parameter>
@@ -29821,7 +29821,7 @@
         <title value="FR Core ValueSet Location Position Lit"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -29830,8 +29830,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bcd0f82b-f604-4e57-88ff-2f50623b6cd9"/>
-          <timestamp value="2025-11-02T16:32:49+01:00"/>
+          <identifier value="urn:uuid:f0893def-d87f-4b4c-8a29-1fb79f53bda9"/>
+          <timestamp value="2025-11-02T18:23:04+01:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -30023,7 +30023,7 @@
         <title value="FR Core ValueSet Location Type Chambre"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -30032,8 +30032,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:88fea5fb-9a94-48f8-882e-916dde2583e9"/>
-          <timestamp value="2025-11-02T16:32:49+01:00"/>
+          <identifier value="urn:uuid:538c133b-a832-428d-9857-bb5c2c5ce582"/>
+          <timestamp value="2025-11-02T18:23:04+01:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -30380,7 +30380,7 @@
         <title value="FR Core ValueSet Location type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -30389,8 +30389,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7e132ef3-6cf7-4f2b-bcfe-a93837063e5d"/>
-          <timestamp value="2025-11-02T16:32:49+01:00"/>
+          <identifier value="urn:uuid:bc8f2fe9-77cc-488e-bb2c-865738608647"/>
+          <timestamp value="2025-11-02T18:23:04+01:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -31416,7 +31416,7 @@
         <title value="FR Core ValueSet Codes Tarifs - nomenclature TNJP"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -31425,8 +31425,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0579f552-96b3-4be7-b5d8-d31ddea45a68"/>
-          <timestamp value="2025-11-02T16:32:49+01:00"/>
+          <identifier value="urn:uuid:1047c7ff-3dc8-4014-9d98-f59a9eea3c99"/>
+          <timestamp value="2025-11-02T18:23:04+01:00"/>
           <total value="43"/>
           <offset value="0"/>
           <parameter>
@@ -32454,7 +32454,7 @@
         <title value="FR Core ValueSet Organization Type Activité - nomenclature SAE"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -32463,8 +32463,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ff32eda9-2fe6-4888-bf45-4028faadf03d"/>
-          <timestamp value="2025-11-02T16:32:49+01:00"/>
+          <identifier value="urn:uuid:b1e7d04a-33b4-4696-9b44-a63c09a589e6"/>
+          <timestamp value="2025-11-02T18:23:05+01:00"/>
           <total value="37"/>
           <offset value="0"/>
           <parameter>
@@ -32859,7 +32859,7 @@
         <title value="FR Core ValueSet Organization Champ Activite - Champ d'activité clinique de l'organisation type UF"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -32869,8 +32869,8 @@
         </jurisdiction>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:9a8e219f-df0b-4969-a0fa-9bb5af4e4030"/>
-          <timestamp value="2025-11-02T16:32:49+01:00"/>
+          <identifier value="urn:uuid:4402fa82-ce0c-45fd-91ed-6723667a37d5"/>
+          <timestamp value="2025-11-02T18:23:05+01:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -35732,7 +35732,7 @@
         <title value="FR Core ValueSet Organization Discipline d'Equipement - nomenclature SAE"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -35741,8 +35741,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:249df9d1-6b8f-4dfd-b58d-c23883502e17"/>
-          <timestamp value="2025-11-02T16:32:49+01:00"/>
+          <identifier value="urn:uuid:58424aa0-efa6-4801-956a-2ff658044c9f"/>
+          <timestamp value="2025-11-02T18:23:05+01:00"/>
           <total value="131"/>
           <offset value="0"/>
           <parameter>
@@ -36387,7 +36387,7 @@
         <title value="FR Core ValueSet Organization Etablisement type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -36396,8 +36396,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:03e56daa-18fa-4e8e-bf39-19dfbd4a6389"/>
-          <timestamp value="2025-11-02T16:32:50+01:00"/>
+          <identifier value="urn:uuid:c66d857c-ae02-4dbb-a349-536f54fbd33d"/>
+          <timestamp value="2025-11-02T18:23:06+01:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -36694,7 +36694,7 @@
         <title value="FR Core ValueSet Organization type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -36703,8 +36703,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7e0d7159-1c79-4e14-9a54-2ff8de377b5f"/>
-          <timestamp value="2025-11-02T16:32:50+01:00"/>
+          <identifier value="urn:uuid:b0dac13e-5c6c-451c-90d6-0cd93b32c892"/>
+          <timestamp value="2025-11-02T18:23:06+01:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -36844,7 +36844,7 @@
         <title value="FR Core ValueSet Organization UAC type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -36853,8 +36853,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7e9304cf-7a85-42b6-9809-d30bb1606ecb"/>
-          <timestamp value="2025-11-02T16:32:50+01:00"/>
+          <identifier value="urn:uuid:10da4c97-9ce9-4e3a-8dc5-623c4b57ae45"/>
+          <timestamp value="2025-11-02T18:23:06+01:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -37083,7 +37083,7 @@
         <name value="FRCoreValueSetOrganizationUFIndicateur"/>
         <title value="FR Core ValueSet Organization UF type"/>
         <status value="active"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -37092,8 +37092,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3a5f8c4a-fbc4-403f-84ad-57a7bece5572"/>
-          <timestamp value="2025-11-02T16:32:50+01:00"/>
+          <identifier value="urn:uuid:fbc2dbc7-1a83-4f41-8f4d-48edc941e328"/>
+          <timestamp value="2025-11-02T18:23:06+01:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -37221,7 +37221,7 @@
         <title value="FR Core ValueSet Organization UF type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-11-02T16:31:57+01:00"/>
+        <date value="2025-11-02T18:22:16+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -37230,8 +37230,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:10d4c3ce-e13b-4c60-ba3b-d4dff2b438ec"/>
-          <timestamp value="2025-11-02T16:32:50+01:00"/>
+          <identifier value="urn:uuid:14fee8eb-f358-4c19-92bc-10dbbc9113d1"/>
+          <timestamp value="2025-11-02T18:23:06+01:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>

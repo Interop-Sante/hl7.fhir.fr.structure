@@ -92,6 +92,9 @@
 
 ### Examples
 
+* [Lit Fenetre - chambre 04 (Location)](Location-hopitaltest-endocrino-ch04-litF.md)
+* [Chambre 04 (Location)](Location-hopitaltest-endocrino-ch04.md)
+* [Salle d'examen 01 (Location)](Location-hopitaltest-salle-examen-01.md)
 * [Depertement d'Endocrinologie (Organization)](Organization-hopitaltest-dept-11003-endocrino.md)
 * [CHRU CENTRE VILLE (Organization)](Organization-hopitaltest-eg-4-members.md)
 * [CHRU RENNES (Organization)](Organization-hopitaltest-ej-350005179.md)

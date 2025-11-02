@@ -10,7 +10,7 @@
   <name value="FrCore"/>
   <title value="Guide d'implémentation Fr Core"/>
   <status value="active"/>
-  <date value="2025-11-02T16:31:57+01:00"/>
+  <date value="2025-11-02T18:22:16+01:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -1093,6 +1093,26 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/hopitaltest-endocrino-ch04"/>
+      </reference>
+      <name value="hopitaltest-endocrino-ch04"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/hopitaltest-endocrino-ch04-litF"/>
+      </reference>
+      <name value="hopitaltest-endocrino-ch04-litF"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <reference>
@@ -1100,6 +1120,16 @@
       </reference>
       <name value="hopitaltest-pole-1150-med-spe"/>
       <exampleCanonical value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/hopitaltest-salle-examen-01"/>
+      </reference>
+      <name value="hopitaltest-salle-examen-01"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -1,10 +1,10 @@
 FrCore : Validation Results
 =========================================
 
-err = 89, warn = 115, info = 69
+err = 98, warn = 118, info = 70
 IG Publisher Version: 2.0.25
-Generated Sun Nov 02 16:33:16 CET 2025. FHIR version 4.0.1 for hl7.fhir.fr.core#2.1.0 (canonical = https://hl7.fr/ig/fhir/core)
- Build Errors : 1 / 15 / 0
+Generated Sun Nov 02 18:23:31 CET 2025. FHIR version 4.0.1 for hl7.fhir.fr.core#2.1.0 (canonical = https://hl7.fr/ig/fhir/core)
+ Build Errors : 2 / 18 / 0
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/CodeSystem-fr-core-cs-champ-activite : 0 / 6 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/CodeSystem-fr-core-cs-code-tarif-tnjp : 0 / 1 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/CodeSystem-fr-core-cs-discipline-equipement : 0 / 3 / 1
@@ -16,6 +16,9 @@ Generated Sun Nov 02 16:33:16 CET 2025. FHIR version 4.0.1 for hl7.fhir.fr.core#
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/CodeSystem-fr-core-cs-uf-indicateur : 0 / 1 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/CodeSystem-fr-core-cs-v2-3307 : 0 / 1 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.fr.core : 0 / 1 / 1
+ /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/Location-hopitaltest-endocrino-ch04 : 2 / 0 / 1
+ /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/Location-hopitaltest-endocrino-ch04-litF : 3 / 1 / 2
+ /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/Location-hopitaltest-salle-examen-01 : 4 / 0 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/Organization-hopitaltest-dept-11003-endocrino : 5 / 4 / 3
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/Organization-hopitaltest-eg-4-members : 10 / 12 / 6
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/Organization-hopitaltest-ej-350005179 : 1 / 4 / 2
@@ -31,7 +34,7 @@ Generated Sun Nov 02 16:33:16 CET 2025. FHIR version 4.0.1 for hl7.fhir.fr.core#
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/StructureDefinition-fr-core-address-insee-code : 0 / 1 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/StructureDefinition-fr-core-contact-point : 0 / 1 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/StructureDefinition-fr-core-contact-point-email-type : 0 / 1 / 1
- /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/StructureDefinition-fr-core-location : 0 / 3 / 2
+ /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/StructureDefinition-fr-core-location : 0 / 2 / 2
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/StructureDefinition-fr-core-location-position-lit : 1 / 1 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/StructureDefinition-fr-core-location-type-chambre : 1 / 1 / 1
  /home/fred/dev/github/interopsante/hl7.fhir.fr.structure/ig/fsh-generated/resources/StructureDefinition-fr-core-organization : 0 / 6 / 1
@@ -75,7 +78,10 @@ Generated Sun Nov 02 16:33:16 CET 2025. FHIR version 4.0.1 for hl7.fhir.fr.core#
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-dept-11003-endocrino.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-eg-4-members.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-ej-350005179.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/hopitaltest-endocrino-ch04.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/hopitaltest-endocrino-ch04-litF.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-pole-1150-med-spe.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/hopitaltest-salle-examen-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-service-11006-endocrino-diabo.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-service-11007-dietetique.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-uac-4420-uac-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -83,6 +89,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-uf-4420-dialyse.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-uf-4701-endocrino-diab.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/hopitaltest-uf-4705-nutrition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Location-hopitaltest-endocrino-ch04-litF.html#/html/body/div/div/div/div/div/div/p/a at Line 244, column 902: The link 'Organization/hopitaltest-endocrino-ch04' for "Organization/hopitaltest-endocrino-ch04" cannot be resolved
 ERROR: StructureDefinition-fr-core-organization-uf.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 371, column 12: The link 'ValueSet-fr-core-vs-organtization-type-activite.html' for "fr-core-vs-organization-type-activite" cannot be resolved
 WARNING: a_propos.html#/html/body/div/div/div/div/div/p/a at Line 224, column 78: The link 'https://hl7.fr/ig/fhir/core' for "guide d’implémentation" is a canonical link and is therefore unsafe with regard to versions
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -117,6 +124,20 @@ WARNING: CodeSystem/fr-core-cs-uf-indicateur: CodeSystem.concept[0]: HL7 Defined
 WARNING: CodeSystem/fr-core-cs-v2-3307: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.fr.core.json ==
 WARNING: ImplementationGuide/hl7.fhir.fr.core: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package ans.fr.nos#1.3.0 released on 2024-08-29, but the most recent appropriate version is 1.5.0. This reference is getting old and the more recent version should be considered
+== fsh-generated/resources/Location-hopitaltest-endocrino-ch04.json ==
+ERROR: Location/hopitaltest-endocrino-ch04: Location.partOf: Unable to find a profile match for Organization/hopitaltest-uf-4701-endocrino-diab (by type) among choices: ; [http://hl7.org/fhir/StructureDefinition/Location|4.0.1]
+ERROR: Location/hopitaltest-endocrino-ch04: Location.partOf: Invalid Resource target type. Found Organization, but expected one of ([Location])
+== fsh-generated/resources/Location-hopitaltest-endocrino-ch04-litF.json ==
+INFORMATION: Location/hopitaltest-endocrino-ch04-litF: Location.extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Location/hopitaltest-endocrino-ch04-litF: Location.extension[0]: The extension http://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-position-lit could not be found so is not allowed here
+WARNING: Location/hopitaltest-endocrino-ch04-litF: Location.extension[0].url: No definition could be found for URL value 'http://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-position-lit'
+ERROR: Location/hopitaltest-endocrino-ch04-litF: Location.partOf: Unable to resolve resource with reference 'Organization/hopitaltest-endocrino-ch04'
+ERROR: Location.text.div: Hyperlink 'Organization/hopitaltest-endocrino-ch04' at 'div/p/a' for 'Organization/hopitaltest-endocrino-ch04' does not resolve
+== fsh-generated/resources/Location-hopitaltest-salle-examen-01.json ==
+ERROR: Location/hopitaltest-salle-examen-01: Location.type[0].coding[0].display: Wrong Display Name 'Salle d'examen' for https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-location-type#SL_EXM. Valid display is 'Salle examen' (for the language(s) 'fr-FR')
+ERROR: Location/hopitaltest-salle-examen-01: Location.type[0]: None of the codings provided are in the value set 'FR Core ValueSet Location type' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-location-type|2.1.0), and a coding from this value set is required) (codes = https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-location-type#SL_EXM)
+ERROR: Location/hopitaltest-salle-examen-01: Location.partOf: Unable to find a profile match for Organization/hopitaltest-uf-4701-endocrino-diab (by type) among choices: ; [http://hl7.org/fhir/StructureDefinition/Location|4.0.1]
+ERROR: Location/hopitaltest-salle-examen-01: Location.partOf: Invalid Resource target type. Found Organization, but expected one of ([Location])
 == fsh-generated/resources/Organization-hopitaltest-dept-11003-endocrino.json ==
 INFORMATION: Organization/hopitaltest-dept-11003-endocrino: Organization.extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Organization/hopitaltest-dept-11003-endocrino: Organization.extension[0]: The extension https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization-member-extension could not be found so is not allowed here
@@ -277,7 +298,6 @@ WARNING: StructureDefinition.where(url = 'https://hl7.fr/ig/fhir/core/StructureD
 INFORMATION: StructureDefinition/fr-core-location: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 WARNING: StructureDefinition/fr-core-location: StructureDefinition.snapshot.element[0].constraint[5]: inv-location-type-chambre: Reference to an unknown extension - double check that the URL 'http://fhir.fr/StructureDefinition/fr-core-location-type-chambre' is correct
 WARNING: StructureDefinition/fr-core-location: StructureDefinition.snapshot.element[0].constraint[6]: inv-location-type-lit: Reference to an unknown extension - double check that the URL 'http://fhir.fr/StructureDefinition/fr-core-location-position-lit' is correct
-WARNING: StructureDefinition.where(url = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-core-location-position-lit.json ==
 ERROR: StructureDefinition/fr-core-location-position-lit: StructureDefinition.context[0]: The element https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location#Location is not valid
 WARNING: StructureDefinition.where(url = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-position-lit'): The Implementation Guide contains no examples for this extension

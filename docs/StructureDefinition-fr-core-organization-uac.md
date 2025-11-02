@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-core-organization
   "name" : "FRCoreOrganizationUACProfile",
   "title" : "FR Core Organization UAC Profile",
   "status" : "active",
-  "date" : "2025-11-02T16:31:57+01:00",
+  "date" : "2025-11-02T18:22:16+01:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

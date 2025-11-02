@@ -20,7 +20,7 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "Location.contained","Location.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"Location.extension","Location.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Location.extension","Location.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -28,7 +28,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","FR Core Location Extension - Type de chambre","Type de chambre","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Location.extension:positionLit","Location.extension","positionLit","","",1,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-position-lit]]} {[]}
+"Location.extension:positionLit","Location.extension","positionLit","","",0,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location-position-lit]]} {[]}
 ","FR Core Location Extension - Position du lit","Position du lit dans la chambre","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

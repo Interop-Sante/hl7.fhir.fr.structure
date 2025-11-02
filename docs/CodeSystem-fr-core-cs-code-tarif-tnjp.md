@@ -37,7 +37,7 @@ La nomenclature des codes Tarif - Tarifs Nationaux Journaliers des Prestations
   "title" : "FR Core CodeSystem Codes Tarifs - nomenclature TNJP",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-02T16:31:57+01:00",
+  "date" : "2025-11-02T18:22:16+01:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

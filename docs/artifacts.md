@@ -104,7 +104,10 @@ These are example instances that show what data produced and consumed by systems
 | [hopitaltest-dept-11003-endocrino](Organization-hopitaltest-dept-11003-endocrino.md) |
 | [hopitaltest-eg-4-members](Organization-hopitaltest-eg-4-members.md) |
 | [hopitaltest-ej-350005179](Organization-hopitaltest-ej-350005179.md) |
+| [hopitaltest-endocrino-ch04](Location-hopitaltest-endocrino-ch04.md) |
+| [hopitaltest-endocrino-ch04-litF](Location-hopitaltest-endocrino-ch04-litF.md) |
 | [hopitaltest-pole-1150-med-spe](Organization-hopitaltest-pole-1150-med-spe.md) |
+| [hopitaltest-salle-examen-01](Location-hopitaltest-salle-examen-01.md) |
 | [hopitaltest-service-11006-endocrino-diabo](Organization-hopitaltest-service-11006-endocrino-diabo.md) |
 | [hopitaltest-service-11007-dietetique](Organization-hopitaltest-service-11007-dietetique.md) |
 | [hopitaltest-uac-4420-uac-01](Organization-hopitaltest-uac-4420-uac-01.md) |

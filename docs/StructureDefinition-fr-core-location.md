@@ -29,7 +29,7 @@ En plus de préciser les types de lieu utilisables avec les ressources `Location
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Examples for this Profile: [Lit Fenetre - chambre 04](Location-hopitaltest-endocrino-ch04-litF.md), [Chambre 04](Location-hopitaltest-endocrino-ch04.md) and [Salle d'examen 01](Location-hopitaltest-salle-examen-01.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.core|current/StructureDefinition/fr-core-location)
 
@@ -54,7 +54,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-core-location.csv
   "name" : "FRCoreLocationProfile",
   "title" : "FR Core Location Profile",
   "status" : "active",
-  "date" : "2025-11-02T16:31:57+01:00",
+  "date" : "2025-11-02T18:22:16+01:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -141,8 +141,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-core-location.csv
           ],
           "ordered" : false,
           "rules" : "open"
-        },
-        "min" : 1
+        }
       },
       {
         "id" : "Location.extension:typeChambre",
@@ -163,7 +162,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-core-location.csv
         "id" : "Location.extension:positionLit",
         "path" : "Location.extension",
         "sliceName" : "positionLit",
-        "min" : 1,
+        "min" : 0,
         "max" : "1",
         "type" : [
           {

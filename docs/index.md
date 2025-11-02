@@ -101,7 +101,7 @@ Le guide d’implémentation FR Core est géré par HL7 France et IHE France au 
   "name" : "FrCore",
   "title" : "Guide d'implémentation Fr Core",
   "status" : "active",
-  "date" : "2025-11-02T16:31:57+01:00",
+  "date" : "2025-11-02T18:22:16+01:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -1639,6 +1639,32 @@ Le guide d’implémentation FR Core est géré par HL7 France et IHE France au 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Location"
+          }
+        ],
+        "reference" : {
+          "reference" : "Location/hopitaltest-endocrino-ch04"
+        },
+        "name" : "hopitaltest-endocrino-ch04",
+        "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location"
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Location"
+          }
+        ],
+        "reference" : {
+          "reference" : "Location/hopitaltest-endocrino-ch04-litF"
+        },
+        "name" : "hopitaltest-endocrino-ch04-litF",
+        "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location"
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "Organization"
           }
         ],
@@ -1647,6 +1673,19 @@ Le guide d’implémentation FR Core est géré par HL7 France et IHE France au 
         },
         "name" : "hopitaltest-pole-1150-med-spe",
         "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization"
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Location"
+          }
+        ],
+        "reference" : {
+          "reference" : "Location/hopitaltest-salle-examen-01"
+        },
+        "name" : "hopitaltest-salle-examen-01",
+        "exampleCanonical" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-location"
       },
       {
         "extension" : [
