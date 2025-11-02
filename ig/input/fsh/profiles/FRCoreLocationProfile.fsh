@@ -15,7 +15,7 @@ un lit d'hôpital ou une chambre d'hôpital. """
 * extension contains FRCoreLocationTypeChambreExtension named typeChambre 0..1
 * obeys inv-location-type-chambre
 
-* extension contains FRCoreLocationPositionLitExtension named positionLit 1..1
+* extension contains FRCoreLocationPositionLitExtension named positionLit 0..1
 * obeys inv-location-type-lit
 
 * type  from FRCoreValueSetLocationType (required)
